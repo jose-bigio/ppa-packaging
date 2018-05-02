@@ -1,0 +1,14 @@
+Source: hello
+Section: utils
+Priority: optional
+Maintainer: Jose Bigio <jose.bigio@docker.com>
+Build-Depends: debhelper (>=9),autotools-dev
+Standards-Version: 3.9.6
+Homepage: <insert the upstream URL, if relevant>
+#Vcs-Git: git://anonscm.debian.org/collab-maint/hello.git
+#Vcs-Browser: https://anonscm.debian.org/cgit/collab-maint/hello.git
+
+Package: hello
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Sample package
